@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav>
+        <h1>Sherif Othman</h1>
+        <ul class="navigation">
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <button class="burger-menu" id="burger-menu">
+          <ion-icon class="bars" name="menu-outline"></ion-icon>
+        </button>
+    </nav>
+
+    <section class="hero" id="about">
+        <img src="/images/sherif.jpg" alt="Sherif" loading="lazy" class="hero-img"/>
+        <div class="bio animate__animated animate__shakeX">
+          <h2 class="bio-title">About Me</h2>
+          <p class="bio-text">
+            I'm a motivated web developer, Content Writer and Social Media Specialist with a proven track record of achieving marketing targets and driving revenue growth. I possess expert knowledge of content creation and user experience design, understanding the human and emotional aspects of buying and selling. My strong social skills enable me to build lasting relationships with clients, colleagues, and third-party stakeholders.
+          </p>
+        </div>
+    </section>
+
+    <section class="more-about">
+      <h2>More About Me</h2>
+      <p>
+        I graduated from the Faculty of Mass Communication, Cairo University in 2006, obtained a diploma in digital marketing from the American University of Illinois, and obtained a Google certificate in user experience design.
+
+      </p>
+      <p>
+        I have been working as a content manager at Alexandria University since January 2012
+      </p>
+      <p>
+        I have been working as a social media manager at the faculties of Alexandria University since 2018
+      </p>
+    </section>
+
+    <section class="skills" id="skills">
+      <h2 class="skill-header">My Top Skills</h2>
+      <div class="skills-wrapper">
+        <div class="first-set animate__animated animate__pulse">
+          <img src="/images/html5-6652.svg" alt="" loading="lazy" class="icon icon-card"/>
+          <img src="/images/css3.svg" alt="" loading="lazy" class="icon icon-card"/>
+          <img src="images/icons8-javascript.svg" alt="" loading="lazy" class="icon icon-card"/>
+        </div>
+      </div>
+    </section>
+    
+    <section class="projects" id="projects">
+      <h2 class="projects-title">Some of my Recent Projects</h2>
+      <div class="projects-container">
+        <div class="project-container project-card">
+          <img src="images/project01.png" alt="expense-tracker" loading="lazy" class="project-pic"/>
+          <h3 class="project-title">Restaurant website</h3>
+          <p class="project-details"></p>
+          <a href="#" target="_blank" class="project-link">Check it Out</a>
+        </div>
+        <div class="project-container project-card">
+          <img src="/images/project02.png" alt="netflic-clone" loading="lazy" class="project-pic"/>
+          <h3 class="project-title">computer science library website</h3>
+          <p class="project-details">Sherif is a specialized computer science library</p>
+          <a href="#" target="_blank" class="project-link">Check it Out</a>
+        </div>
+        <div class="project-container project-card">
+          <img src="/images/design1.png" alt="greeny-earth" loading="lazy" class="project-pic"/>
+          <h3 class="project-title">Alexandria University</h3>
+          <p class="project-details">UI/UX design for an educational mobile app</p>
+          <a href="#" target="_blank" class="project-link">Check it Out</a>
+        </div>
+        <div class="project-container project-card">
+          <img src="/images/design3.png" alt="greeny-earth" loading="lazy" class="project-pic"/>
+          <h3 class="project-title">medical institution website</h3>
+          <p class="project-details">UI/UX interface design for a medical institution website</p>
+          <a href="#" target="_blank" class="project-link">Check it Out</a>
+        </div>
+        <div class="project-container project-card">
+          <img src="/images/design4.png" alt="greeny-earth" loading="lazy" class="project-pic"/>
+          <h3 class="project-title">mobile app for a tourism company</h3>
+          <p class="project-details">Designing a UI/UX interface for a mobile phone for a tourism company</p>
+          <a href="#" target="_blank" class="project-link">Check it Out</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <h2>Get In Touch With Me</h2>
+      <div class="contact-form-container">
+        <div class="contact-form">
+          <form action="https://formspree.io/f/xyylngw" method="POST">
+            <div class="form-control">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="sender-name" placeholder="Enter Your Name" class="input-field" required/>
+            </div>
+            <div class="form-control">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="sender-email" placeholder="Enter Your Email" class="input-field" required/>
+            </div>
+            <div class="form-control">
+              <label for="message">Message</label>
+              <textarea id="message" cols="60" rows="10" placeholder="Enter Your Message" name="message" class="input-field" required></textarea>
+            </div>
+            <input type="submit" value="Submit" id="submit-btn" class="submit-btn"/>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <div class="socials">
+      <a href="https://x.com/sherif14othman" target="_blank"><img src="images/x.png" alt="Twitter" loading="lazy" class="socicon"/></a>
+      <a href="https://www.instagram.com/shevoo273/" target="_blank"><img src="images/48-484199_animated-transparent-instagram-icon-gif-hd-png-download.png" alt="Instagram" loading="lazy" class="socicon"/></a>
+      <a href="https://www.linkedin.com/in/sherif-othman-283418122/" target="_blank"><img src="images/icons8-linkedin-circled.svg" alt="Linkedin" loading="lazy" class="socicon"/></a>
+      <a href="https://github.com/sherif001" target="_blank"><img src="/images/icons8-github.gif" alt="Github" class="socicon"/></a>
+    </div>
+
+    <footer class="footer">
+      <div class="footer-info">
+        <p>&copy; 2024 Sherif Othman. All Rights Reserved.</p>
+        <p>Contact: <a href="mailto:sherif.othman@alexu.edu.eg">sherif.othman@alexu.edu.eg</a></p>
+      </div>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+</html>
